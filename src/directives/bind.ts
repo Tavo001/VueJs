@@ -5,7 +5,8 @@ import {
   isString,
   isArray,
   hyphenate,
-  camelize
+  camelize,
+  
 } from '@vue/shared'
 
 const forceAttrRE = /^(spellcheck|draggable|form|list|type)$/
