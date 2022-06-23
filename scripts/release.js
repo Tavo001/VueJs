@@ -19,7 +19,7 @@ async function main() {
   const { release } = await prompt({
     type: 'select',
     name: 'release',
-    message: 'Select release type',
+    message: "Select release type",
     choices: versionIncrements.map((i) => `${i} (${inc(i)})`).concat(['custom'])
   })
 
